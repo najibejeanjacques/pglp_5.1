@@ -3,18 +3,18 @@ package gl_pack;
 import java.util.List;
 import java.util.Optional;
 
-public interface Dao<Personnel> {
+public interface Dao<T> {
 	
 	//On peux remplacer Personnel par T afin d'avoir un DAO généraliste
 	
-	List<Personnel> findAll();
+	List<T> findAll();
 	
 	void create();
 	
-	void save(Personnel personne);
+	void save(T t);
 	
-	void update(Personnel personne,String[] params);
+	void update(T t,String[] params);
 	
-	void delete(Personnel personne);
+	void delete(T t);
 	
 }
