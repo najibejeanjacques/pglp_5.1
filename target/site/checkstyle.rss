@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 11,
-             Errors: 253,
-             Warnings: 0,
+      <title>File: 13,
+             Errors: 0,
+             Warnings: 679,
              Infos: 0
       </title>
             <link>${project.url}/checkstyle.html</link>
@@ -46,52 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.PersonnelDAO.java">gl_pack/PersonnelDAO.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  29
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.Principal.java">gl_pack/Principal.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.Telephone.java">gl_pack/Telephone.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  52
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.CompositePersonnel.java">gl_pack/CompositePersonnel.java</a>
-                </td>
-                <td>
-                  0
+                  <a href="${project.url}/checkstyle.html#gl_pack.DAOFactory.java">gl_pack/DAOFactory.java</a>
                 </td>
                 <td>
                   0
@@ -99,19 +54,8 @@ under the License.
                 <td>
                   31
                 </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.Personnel.java">gl_pack/Personnel.java</a>
-                </td>
                 <td>
                   0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  52
                 </td>
               </tr>
                           <tr>
@@ -122,24 +66,24 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
+                  5
                 </td>
                 <td>
-                  7
+                  0
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack_test.PersonnelSerialisation.java">gl_pack_test/PersonnelSerialisation.java</a>
+                  <a href="${project.url}/checkstyle.html#gl_pack.CustomerDAO.java">gl_pack/CustomerDAO.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  0
+                  11
                 </td>
                 <td>
-                  16
+                  0
                 </td>
               </tr>
                           <tr>
@@ -150,24 +94,122 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
+                  35
                 </td>
                 <td>
-                  11
+                  0
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.PersonnelApplication.java">gl_pack/PersonnelApplication.java</a>
+                  <a href="${project.url}/checkstyle.html#gl_pack.PersonnelDAO.java">gl_pack/PersonnelDAO.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
+                  139
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.Principal.java">gl_pack/Principal.java</a>
+                </td>
+                <td>
                   0
                 </td>
                 <td>
-                  6
+                  43
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.Telephone.java">gl_pack/Telephone.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  70
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.PersonnelGroup.java">gl_pack/PersonnelGroup.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  50
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.CompositePersonnel.java">gl_pack/CompositePersonnel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  49
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.Personnel.java">gl_pack/Personnel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  91
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack.SerializationDaoFactory.java">gl_pack/SerializationDaoFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  83
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#gl_pack_test.PersonnelSerialisation.java">gl_pack_test/PersonnelSerialisation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  36
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                           <tr>
@@ -178,24 +220,10 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#gl_pack.Dao.java">gl_pack/Dao.java</a>
+                  36
                 </td>
                 <td>
                   0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  17
                 </td>
               </tr>
                       </tbody>

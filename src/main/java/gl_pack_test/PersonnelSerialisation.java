@@ -13,22 +13,18 @@ import gl_pack.Personnel;
 import gl_pack.Personnel.PersonnelBuilder;
 
 public class PersonnelSerialisation {
-	
+
 	@Test
-	public void personnelSerialize()
-	{
+	public void personnelSerialize() {
 		boolean bool = true;
-		try
-		{
+		try {
 			final FileOutputStream fichier = new FileOutputStream("Personnel.ser");
 			ObjectOutputStream os = new ObjectOutputStream(fichier);
-			Personnel personne = new Personnel.PersonnelBuilder("OUEDRAOGO", "Najibe")
-											  .build();
+			Personnel personne = new Personnel.PersonnelBuilder("OUEDRAOGO", "Najibe").build();
 			os.writeObject(personne);
 			os.close();
 			bool = true;
-		}
-		catch (IOException e) {
+		} catch (IOException e) {
 			// TODO: handle exception
 			e.printStackTrace();
 			bool = false;

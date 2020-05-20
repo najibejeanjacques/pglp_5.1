@@ -14,19 +14,16 @@ import gl_pack.Personnel;
 public class CompositeSerialisation {
 
 	@Test
-	public void personnelSerialize()
-	{
+	public void personnelSerialize() {
 		boolean bool = true;
-		try
-		{
+		try {
 			final FileOutputStream fichier = new FileOutputStream("Composite.ser");
 			ObjectOutputStream os = new ObjectOutputStream(fichier);
 			CompositePersonnel compositePersonnel = new CompositePersonnel("Département Informatique");
 			os.writeObject(compositePersonnel);
 			os.close();
 			bool = true;
-		}
-		catch (IOException e) {
+		} catch (IOException e) {
 			// TODO: handle exception
 			e.printStackTrace();
 			bool = false;

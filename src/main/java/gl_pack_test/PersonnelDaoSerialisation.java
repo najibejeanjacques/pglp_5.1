@@ -14,19 +14,17 @@ import gl_pack.PersonnelDAO;
 public class PersonnelDaoSerialisation {
 
 	@Test
-	public void personnelDaoSerialize()
-	{
+	public void personnelDaoSerialize() {
 		boolean bool = true;
-		try
-		{
+		try {
 			final FileOutputStream fichier = new FileOutputStream("PersonnelDao.ser");
 			ObjectOutputStream os = new ObjectOutputStream(fichier);
+
 			PersonnelDAO personnelDao = new PersonnelDAO();
 			os.writeObject(personnelDao);
 			os.close();
 			bool = true;
-		}
-		catch (IOException e) {
+		} catch (IOException e) {
 			// TODO: handle exception
 			e.printStackTrace();
 			bool = false;
